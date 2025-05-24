@@ -27,7 +27,7 @@ The API serves as the backbone of the project, connecting the client side with t
 ### 🔁 API Flow Diagram
 
 📊 *Coming soon!*  
-`/screenshots/api-diagram.png`
+`API diagram.png`
 
 ---
 
