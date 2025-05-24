@@ -27,7 +27,6 @@ The API serves as the backbone of the project, connecting the client side with t
 ### 🔁 API Flow Diagram
 
 📊 *Coming soon!*  
-Place your API flow diagram here:  
 `/screenshots/api-diagram.png`
 
 ---
@@ -41,7 +40,6 @@ The overall application follows a modular and scalable structure, separating con
 - Error handling and logging are centralized.
 
 📊 *Coming soon!*  
-Place your app architecture diagram here:  
 `/screenshots/app-architecture.png`
 
 ---
@@ -55,7 +53,6 @@ The mobile application is built using platform-specific or cross-platform framew
 - **Navigation**: Handled via routing system for seamless screen transitions.
 
 📊 *Coming soon!*  
-Place your mobile app architecture diagram here:  
 `/screenshots/mobile-architecture.png`
 
 ---
@@ -69,7 +66,6 @@ The presentation layer is responsible for user interaction, component rendering,
 - UI follows responsive and adaptive design for cross-device compatibility.
 
 📊 *Coming soon!*  
-Place your UI/presentation layout screenshot here:  
 `/screenshots/presentation.png`
 
 ---
@@ -84,7 +80,6 @@ The database is optimized for performance and scalability.
 - **Security**: Enforced via access rules and encryption of sensitive fields.
 
 📊 *Coming soon!*  
-Place your database structure diagram here:  
 `/screenshots/database.png`
 
 ---
@@ -92,7 +87,6 @@ Place your database structure diagram here:
 ## 📸 Screenshots
 
 Coming soon!  
-Add your `.png`, `.jpg`, or `.gif` diagrams and screenshots to the `/screenshots/` folder.
 
 ---
 
