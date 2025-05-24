@@ -1,35 +1,107 @@
-# Project Documentation
+# 🧩 Project Documentation
 
 This document provides an overview of the architecture and design of the project. It includes API diagrams, app architecture, mobile app architecture, presentation layers, and database structure.
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [API Diagram](#api-diagram)
-- [App Architecture](#app-architecture)
-- [Mobile App Architecture](#mobile-app-architecture)
-- [Presentation](#presentation)
-- [Database](#database)
+- [🛰️ API Diagram](#-api-diagram)
+- [🏗️ App Architecture](#-app-architecture)
+- [📱 Mobile App Architecture](#-mobile-app-architecture)
+- [🖥️ Presentation](#-presentation)
+- [🗃️ Database](#-database)
+- [📸 Screenshots](#-screenshots)
 
 ---
 
-## API Diagram
+## 🛰️ API Diagram
 
-The API serves as the backbone of the project, connecting the client side with the server side. It handles data requests, processing, and returns appropriate responses. Below is the diagram outlining the structure and flow of the API.
+The API serves as the backbone of the project, connecting the client side with the server side. It handles data requests, processing, and returns appropriate responses.
 
-### API Overview
+### 🔹 API Overview
 
-- **Endpoints**: The API consists of multiple RESTful endpoints for data retrieval, updates, and actions.
-- **Authentication**: Token-based authentication (JWT) is used to secure the API.
-- **Request/Response**: The API follows a structured JSON format for both requests and responses.
+- **Endpoints**: Multiple RESTful endpoints for data retrieval, updates, and user actions.
+- **Authentication**: Secured via **JWT (JSON Web Token)**.
+- **Data Format**: Structured **JSON** format for both requests and responses.
+- **Error Handling**: Returns standardized HTTP status codes with detailed error messages.
 
-### API Flow Diagram
+### 🔁 API Flow Diagram
 
-```mermaid
-graph TD
-    A[User] --> B[Request API Endpoint]
-    B --> C[Authentication Service]
-    C --> D[Check JWT Token]
-    D --> E[Data Fetching Logic]
-    E --> F[API Response]
-    F --> G[User Response]
-    style G fill:#f9f,stroke:#333,stroke-width:4px
+📊 *Coming soon!*  
+Place your API flow diagram here:  
+`/screenshots/api-diagram.png`
+
+---
+
+## 🏗️ App Architecture
+
+The overall application follows a modular and scalable structure, separating concerns across services and domains.
+
+- Follows **MVC (Model-View-Controller)** or **MVVM** pattern.
+- Services are loosely coupled for scalability and maintainability.
+- Error handling and logging are centralized.
+
+📊 *Coming soon!*  
+Place your app architecture diagram here:  
+`/screenshots/app-architecture.png`
+
+---
+
+## 📱 Mobile App Architecture
+
+The mobile application is built using platform-specific or cross-platform frameworks with a clean separation of UI, logic, and services.
+
+- **State Management**: Using Provider, Bloc, or Redux (depending on framework).
+- **Data Layer**: Handles API communication and local caching.
+- **Navigation**: Handled via routing system for seamless screen transitions.
+
+📊 *Coming soon!*  
+Place your mobile app architecture diagram here:  
+`/screenshots/mobile-architecture.png`
+
+---
+
+## 🖥️ Presentation
+
+The presentation layer is responsible for user interaction, component rendering, and form input validation.
+
+- Designed using **component-based UI frameworks** (e.g., React, Flutter, SwiftUI).
+- Supports **internationalization (i18n)** and accessibility.
+- UI follows responsive and adaptive design for cross-device compatibility.
+
+📊 *Coming soon!*  
+Place your UI/presentation layout screenshot here:  
+`/screenshots/presentation.png`
+
+---
+
+## 🗃️ Database
+
+The database is optimized for performance and scalability.
+
+- **Type**: SQL / NoSQL (e.g., PostgreSQL, MongoDB)
+- **Entities**: Users, Sessions, Transactions, Logs, etc.
+- **Indexes**: Applied to critical columns to optimize read speed.
+- **Security**: Enforced via access rules and encryption of sensitive fields.
+
+📊 *Coming soon!*  
+Place your database structure diagram here:  
+`/screenshots/database.png`
+
+---
+
+## 📸 Screenshots
+
+Coming soon!  
+Add your `.png`, `.jpg`, or `.gif` diagrams and screenshots to the `/screenshots/` folder.
+
+---
+
+## 📃 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+## 👨‍💻 Author
+
+**Adrian Lesniak**  
+Software Developer  
+> 💡 Focused on clean architecture, visual clarity, and efficient development workflows.
